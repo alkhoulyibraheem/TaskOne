@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>User Profile</title>
+  <style>
+    .profile {
+      margin-top: 50px;
+      padding: 30px;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .profile h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #333;
+    }
+
+    .profile p {
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #666;
+    }
+
+    .profile ul {
+      padding-left: 0;
+      list-style-type: none;
+      margin-top: 20px;
+    }
+
+    .profile ul li {
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Table styling */
+    .primary-table {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <!-- User avatar -->
+          <img src="">
+        </div>
+        <div class="col-md-8">
+          <!-- User information -->
+          <h2>User Name</h2>
+          <p>Email: user@example.com</p>
+          <p>Location: City, Country</p>
+          <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <!-- Additional user details -->
+          <h4>Additional Details</h4>
+          <ul>
+            <li>Age: 30</li>
+            <li>Occupation: Developer</li>
+            <li>Interests: Coding, Design, Music</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Table -->
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+          <table class="table primary-table">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Item 1</td>
+                <td>2</td>
+                <td>$10</td>
+              </tr>
+              <tr>
+                <td>Item 2</td>
+                <td>1</td>
+                <td>$5</td>
+              </tr>
+              <tr>
+                <td>Item 3</td>
+                <td>3</td>
+                <td>$15</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
